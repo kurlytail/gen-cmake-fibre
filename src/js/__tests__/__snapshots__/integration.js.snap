@@ -1,10 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design 1`] = `
-"info: Initializing git repository testoutput/.git
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-minimum-required-version-default._
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-message-versions._
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-message-processor._
+"info: loading map node_modules/@kurlytail/gen-cmake/templates/map.json
+info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-minimum-required-version-default._
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-message-versions._
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-message-processor._
 info: Generated testoutput/CMakeLists.txt from template node_modules/@kurlytail/gen-cmake/templates/CMakeLists.txt._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
@@ -16,10 +18,12 @@ info: sgen is done
 `;
 
 exports[`# integration test ## should generate design and run cmake-fibre commands 1`] = `
-"info: Initializing git repository testoutput/.git
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-minimum-required-version-default._
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-message-versions._
-info: loading extension /Users/ashwin/pmgr/gen-cmake-fibre/node_modules/.bin/../@kurlytail/gen-cmake/scripts/../templates/extensions/cmake-message-processor._
+"info: loading map node_modules/@kurlytail/gen-cmake/templates/map.json
+info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-minimum-required-version-default._
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-message-versions._
+info: loading extension node_modules/@kurlytail/gen-cmake/templates/extensions/cmake-message-processor._
 info: Generated testoutput/CMakeLists.txt from template node_modules/@kurlytail/gen-cmake/templates/CMakeLists.txt._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
