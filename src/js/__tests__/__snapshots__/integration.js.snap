@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`# integration test ## should print help options 1`] = `
+"Usage:
+  node sgen [OPTION]
+
+Options:
+  -m, --map=ARG+       mapping files
+  -d, --design=ARG+    design files
+  -e, --extension=ARG+ extension directories or files
+  -o, --output=ARG     output directory for generated files
+      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error or merge                         (default: skip)
+      --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
+  -h, --help           display this help
+"
+`;
