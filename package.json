@@ -57,7 +57,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-cmake": "^0.0.37"
+        "@kurlytail/gen-cmake": "^0.0.43"
     },
     "bin": {
         "sgen-cmake-fibre": "scripts/sgen-cmake-fibre.sh"
