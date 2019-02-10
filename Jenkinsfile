@@ -36,7 +36,10 @@ pipeline {
                 sh 'rm -rf *'
 
                 checkout scm
-
+                script {
+                    def cmakePath = tool 'cmake'
+                    env.PATH = env.PATH + ':' + cmakePath
+                }
                 nodejs(nodeJSInstallationName: 'Node') {
                     sh 'npm install --no-save'
                     sh 'npm version $NPM_VERSION_NUMBER'
