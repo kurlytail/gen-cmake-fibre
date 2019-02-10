@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "author": "",
-  "dependencies": {
-    "@kurlytail/gen-sgen": ""
+  "dependencies": {},
+  "devDependencies": {
+    "@kurlytail/gen-lib": "0.0.54"
   }
 }
