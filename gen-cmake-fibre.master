@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:master="http://www.brainspeedtech.com/swarm/master" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
-  <notation:Diagram xmi:id="_dhwCMCzEEem4V9Z7vWyQ-g" type="Master" element="_dhwCMizEEem4V9Z7vWyQ-g" measurementUnit="Pixel">
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_dhwCMSzEEem4V9Z7vWyQ-g"/>
-  </notation:Diagram>
-  <master:MasterDesign xmi:id="_dhwCMizEEem4V9Z7vWyQ-g" name="gen-cmake-fibre"/>
-</xmi:XMI>
