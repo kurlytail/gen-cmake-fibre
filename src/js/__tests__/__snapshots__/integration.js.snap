@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run cmake-fibre commands 1`] = `
-"info: Loaded generator @kurlytail/gen-cmake@1.2.1
+"info: Loaded generator @kurlytail/gen-cmake@1.2.2
 
 info: loading map node_modules/@kurlytail/gen-cmake/templates/map.json
 info: loading map templates/map.json
