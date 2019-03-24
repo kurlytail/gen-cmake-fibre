@@ -6,19 +6,17 @@ describe('# integration test', () => {
     });
 
     it('## should print help options', () => {
-        const output = execSync('./scripts/sgen-cmake-fibre.sh -h').toString();
-        expect(output).toMatchSnapshot();
-    });
-
-    it('## should generate design', () => {
-        const output = execSync('./scripts/sgen-cmake-fibre.sh -d src/test/fixture/design.js -o testoutput').toString();
+        let output = execSync('npm run build').toString();
+        output = execSync('sgen -g `pwd`/dist/cmake-fibre.min.js -h').toString();
         expect(output).toMatchSnapshot();
     });
 
     it('## should generate design and run cmake-fibre commands', () => {
-        let output = execSync(
-            './scripts/sgen-cmake-fibre.sh -d src/test/fixture/design.js -o testoutput --overwrite=merge'
+        let output = execSync('npm run build').toString();
+        output = execSync(
+            'sgen -g `pwd`/dist/cmake-fibre.min.js -d src/test/fixture/design.json -o testoutput'
         ).toString();
+        output = output.replace(/info: Loaded generator .*cmake-fibre.min.js.*/, '');
         expect(output).toMatchSnapshot();
         output = execSync('cmake CMakeLists.txt', { cwd: 'testoutput' }).toString();
         output = execSync('make', { cwd: 'testoutput' }).toString();
