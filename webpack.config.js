@@ -82,7 +82,7 @@ if (showConfigOnly) {
 const configLib = Object.assign({}, config, {
     externals: [nodeExternals()],
     entry: {
-        cmake-fibre: './src/js/index.js'
+        'cmake-fibre': './src/js/index.js'
     }
 });
 
